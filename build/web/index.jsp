@@ -59,8 +59,8 @@
             <%@ page import = "java.sql.*" %>
             <%      Class.forName("com.mysql.jdbc.Driver");
                 String dbURL = "jdbc:mysql://bookstore.ckccbr98ixeu.eu-west-1.rds.amazonaws.com:3306/";
-                String user = "masterUser";
-                String dbpassword = "pass123!";
+                String user = "";
+                String dbpassword = "";
                 String dbName = "ebdb";
 
                 // connect to AWS RDS using above credentials
